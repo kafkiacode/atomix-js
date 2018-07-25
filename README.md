@@ -17,9 +17,10 @@ Author of this code: [Gabriel Mérida](https://gabrielmerida.cl)
 
 ## Roadmap
 - Fix font sizes
+- Fix behaviour in touch screens
 - Review and fix all levels
 - Add different times for difficulties EASY, MEDIUM and HARD
-- Make controllable by keyboard
+- Add keyboard control
 - Persist the Hi Score
 - A nicer intro screen
 - Add visual snapshot tests with StoryShots and jest-image-snapshot
