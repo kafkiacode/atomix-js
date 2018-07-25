@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  touch-action: none;
+}
+body {
+  overscroll-behavior: contain;
+}
+
+*:not(input) {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+* {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+

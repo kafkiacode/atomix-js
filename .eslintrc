@@ -1,0 +1,60 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended",
+  ],
+  "plugins": [
+    "flowtype-errors",
+    "eslint-plugin-flowtype",
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": false
+  },
+  "globals": {
+    "it": true,
+    "expect": true,
+    "describe": true
+  },
+  "rules": {
+    // NOT FOR NOW...
+    // "semi": ["error", "never"],
+    // "no-confusing-arrow": "off",
+    // "jsx-a11y/href-no-hash": "off",
+    // "jsx-a11y/img-has-alt": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "import/prefer-default-export": "off",
+    "max-len": ["error", 130, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": true,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+      }
+    ],
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+    "flowtype/define-flow-type": 1,
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "flowtype-errors/show-errors": 0,
+    "flowtype-errors/show-warnings": 0,
+    "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore",
+    }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": 0,
+    "flowtype-errors/enforce-min-coverage": [2, 50],
+
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
