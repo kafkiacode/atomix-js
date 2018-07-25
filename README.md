@@ -6,7 +6,7 @@ Play it at https://kafkiacode.github.io/atomix-js
 
 See the Storybook at https://kafkiacode.github.io/atomix-js/storybook/index.html
 
-## What is thi
+## What is this
 Atomix-js is a Javascript re-write of and old favourite game of my childhood, <Atomix>. This version is written in ES2015 (aka Javascript ES6), ReactJS, Flow and Redux. Other libraries used are AphroditeCSS, redux-saga, Storybook, recompose and Lodash.
 
 It's profit free, and meant to be only an experiment in certain libraries. All copyrights belong to the original creators of the game.
