@@ -7,10 +7,13 @@ const styles = StyleSheet.create({
     width: '1in',
     height: '1in',
     cursor: 'pointer',
+    // Needed to avoid weird semi transparent highlight when touching atom
+    '-webkitTapHighlightColor': 'transparent',
     display: 'inline-block',
     position: 'relative',
     boxSizing: 'border-box',
     padding: 'calc(1in / 16 * 2) calc(1in / 16 * 3) calc(1in / 16 * 3) calc(1in / 16 * 2)',
+    transform: 'translate3d(0, 0, 0)',
   },
   ball: {
     zIndex: 1,

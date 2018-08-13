@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     boxSizing: 'border-box',
     backgroundColor: '#392900',
+    transform: 'translate3d(0, 0, 0)',
   },
 });
 
